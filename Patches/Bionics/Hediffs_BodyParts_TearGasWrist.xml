@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Non-Lethal</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>FF_TearGasWrist</defName>
+    <label>tear gas wrist</label>
+    <labelNoun>a tear gas wrist</labelNoun>
+    <description>An installed tear gas wrist.</description>
+    <descriptionHyperlinks><ThingDef>FF_TearGasWrist</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FF_TearGasWrist</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <comps>
+      <li Class="Reloading.HediffCompProperties_Reloadable">
+        <compClass>Reloading.HediffComp_Reloadable</compClass>
+        <MaxShots>5</MaxShots>
+        <AmmoFilter>
+          <thingDefs>
+             <li>Neutroamine</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>5</ItemsPerShot>
+        <ReloadTimePerShot>0.5</ReloadTimePerShot>
+        <ReloadSound>ReloadRocket</ReloadSound>
+      </li>
+      <li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+        <verbs>
+          <li>
+            <verbClass>Reloading.Verb_ShootReloadable</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>VWENL_Projectile_TearGasGrenade</defaultProjectile>
+            <forcedMissRadius>2.9</forcedMissRadius>
+            <burstShotCount>1</burstShotCount>
+            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+            <warmupTime>3.5</warmupTime>
+            <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+            <range>19.9</range>
+            <soundCast>VWENL_Shot_GrenadeLauncher</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+              <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <muzzleFlashScale>14</muzzleFlashScale>
+          </li>
+        </verbs>
+        <verbProps>
+          <li>
+            <label>tear gas wrist</label>
+            <draw>false</draw>
+            <canBeToggled>true</canBeToggled>
+            <canFireIndependently>false</canFireIndependently>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>FF_TearGasWrist</defName>
+    <label>tear gas wrist</label>
+    <description>placeholder</description>
+    <descriptionHyperlinks><RecipeDef>FF_InstallTearGasWrist</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Neutroamine>25</Neutroamine>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <researchPrerequisites>
+      <li>Bionics</li>
+      <li>VWE_NonLethal</li>
+    </researchPrerequisites>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>FF_InstallTearGasWrist</defName>
+    <label>install tear gas wrist</label>
+    <description>Install a tear gas wrist.</description>
+    <descriptionHyperlinks>
+      <ThingDef>FF_TearGasWrist</ThingDef>
+      <HediffDef>FF_TearGasWrist</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing tear gas wrist.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FF_TearGasWrist</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FF_TearGasWrist</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>FF_TearGasWrist</addsHediff>
+  </RecipeDef>
+        </value>
+      </li>
+    </operations>
+    </match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>FF_MinigunWrist</defName>
+    <label>minigun wrist</label>
+    <labelNoun>a minigun wrist</labelNoun>
+    <description>An installed minigun wrist.</description>
+    <descriptionHyperlinks><ThingDef>FF_MinigunWrist</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FF_MinigunWrist</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+        <verbs>
+          <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_Minigun</defaultProjectile>
+            <forcedMissRadius>2.9</forcedMissRadius>
+            <burstShotCount>12</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <warmupTime>2.5</warmupTime>
+            <range>30.9</range>
+            <soundCast>Shot_Minigun</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <onlyManualCast>true</onlyManualCast>
+            <targetParams>
+              <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <muzzleFlashScale>9</muzzleFlashScale>
+          </li>
+        </verbs>
+        <verbProps>
+          <li>
+            <label>minigun wrist</label>
+            <draw>false</draw>
+            <canBeToggled>true</canBeToggled>
+            <canFireIndependently>false</canFireIndependently>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <ThingDef ParentName="FF_BodyPartBionicBase">
+    <defName>FF_MinigunWrist</defName>
+    <label>minigun wrist</label>
+    <description>placeholder</description>
+    <descriptionHyperlinks><RecipeDef>FF_InstallMinigunWrist</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Steel>100</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <statBases>
+      <Mass>10</Mass>
+    </statBases>
+    <researchPrerequisites>
+      <li>Bionics</li>
+      <li>MultibarrelWeapons</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>FF_InstallMinigunWrist</defName>
+    <label>install minigun wrist</label>
+    <description>Install a minigun wrist.</description>
+    <descriptionHyperlinks>
+      <ThingDef>FF_MinigunWrist</ThingDef>
+      <HediffDef>FF_MinigunWrist</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing minigun wrist.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FF_MinigunWrist</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FF_MinigunWrist</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>FF_MinigunWrist</addsHediff>
+  </RecipeDef>
+
+</Defs>
