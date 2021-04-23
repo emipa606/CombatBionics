@@ -71,7 +71,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>FF_TeslaWrist</defName>
     <label>tesla wrist</label>
-    <description>placeholder</description>
+    <description>An advanced artifical hand, with a built-in electric weapon. While providing combat advantage, it is better than a biological hand in almost every way.</description>
     <descriptionHyperlinks><RecipeDef>FF_InstallTeslaWrist</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -113,7 +113,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Arm</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FF_TeslaWrist</addsHediff>
   </RecipeDef>

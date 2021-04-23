@@ -30,6 +30,7 @@
               <canTargetPawns>false</canTargetPawns>
               <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
+			<range>15.9</range>
           </li>
         </verbs>
       </li>
@@ -39,7 +40,7 @@
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_JumpPackSpine</defName>
     <label>jump pack spine</label>
-    <description>placeholder</description>
+    <description>An advanced artifical spine, with a built-in jump pack system. While providing combat utility, it matches the performance of a biological spine.</description>
     <descriptionHyperlinks><RecipeDef>FF_InstallJumpPackSpine</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>

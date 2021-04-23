@@ -71,7 +71,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>FF_LaserWrist</defName>
     <label>laser wrist</label>
-    <description>placeholder</description>
+    <description>An advanced artifical hand, with a built-in laser shooter. While providing combat advantage, it is better than a biological hand in almost every way.</description>
     <descriptionHyperlinks><RecipeDef>FF_InstallLaserWrist</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>45</Plasteel>
@@ -112,7 +112,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Arm</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FF_LaserWrist</addsHediff>
   </RecipeDef>

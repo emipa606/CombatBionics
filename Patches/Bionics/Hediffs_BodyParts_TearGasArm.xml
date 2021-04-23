@@ -13,12 +13,12 @@
         <xpath>/Defs</xpath>
         <value>
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>FF_TearGasWrist</defName>
-    <label>tear gas wrist</label>
-    <labelNoun>a tear gas wrist</labelNoun>
-    <description>An installed tear gas wrist.</description>
-    <descriptionHyperlinks><ThingDef>FF_TearGasWrist</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>FF_TearGasWrist</spawnThingOnRemoved>
+    <defName>FF_TearGasArm</defName>
+    <label>tear gas arm</label>
+    <labelNoun>a tear gas arm</labelNoun>
+    <description>An installed tear gas arm.</description>
+    <descriptionHyperlinks><ThingDef>FF_TearGasArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FF_TearGasArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.25</partEfficiency>
@@ -72,7 +72,7 @@
         </verbs>
         <verbProps>
           <li>
-            <label>tear gas wrist</label>
+            <label>tear gas arm</label>
             <draw>false</draw>
             <canBeToggled>true</canBeToggled>
             <canFireIndependently>false</canFireIndependently>
@@ -83,10 +83,10 @@
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
-    <defName>FF_TearGasWrist</defName>
-    <label>tear gas wrist</label>
-    <description>placeholder</description>
-    <descriptionHyperlinks><RecipeDef>FF_InstallTearGasWrist</RecipeDef></descriptionHyperlinks>
+    <defName>FF_TearGasArm</defName>
+    <label>tear gas arm</label>
+    <description>An advanced artifical arm, with a built-in tear gas canister launcher. While providing combat advantage, it is better than a biological arm in almost every way.</description>
+    <descriptionHyperlinks><RecipeDef>FF_InstallTearGasArm</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
@@ -103,19 +103,19 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>FF_InstallTearGasWrist</defName>
-    <label>install tear gas wrist</label>
-    <description>Install a tear gas wrist.</description>
+    <defName>FF_InstallTearGasArm</defName>
+    <label>install tear gas arm</label>
+    <description>Install a tear gas arm.</description>
     <descriptionHyperlinks>
-      <ThingDef>FF_TearGasWrist</ThingDef>
-      <HediffDef>FF_TearGasWrist</HediffDef>
+      <ThingDef>FF_TearGasArm</ThingDef>
+      <HediffDef>FF_TearGasArm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing tear gas wrist.</jobString>
+    <jobString>Installing tear gas arm.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>FF_TearGasWrist</li>
+            <li>FF_TearGasArm</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -123,13 +123,13 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>FF_TearGasWrist</li>
+        <li>FF_TearGasArm</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>FF_TearGasWrist</addsHediff>
+    <addsHediff>FF_TearGasArm</addsHediff>
   </RecipeDef>
         </value>
       </li>

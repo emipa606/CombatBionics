@@ -2,12 +2,12 @@
 <Defs>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>FF_MinigunWrist</defName>
-    <label>minigun wrist</label>
-    <labelNoun>a minigun wrist</labelNoun>
-    <description>An installed minigun wrist.</description>
-    <descriptionHyperlinks><ThingDef>FF_MinigunWrist</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>FF_MinigunWrist</spawnThingOnRemoved>
+    <defName>FF_MinigunArm</defName>
+    <label>minigun arm</label>
+    <labelNoun>a minigun arm</labelNoun>
+    <description>An installed minigun arm.</description>
+    <descriptionHyperlinks><ThingDef>FF_MinigunArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>FF_MinigunArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1</partEfficiency>
@@ -47,7 +47,7 @@
         </verbs>
         <verbProps>
           <li>
-            <label>minigun wrist</label>
+            <label>minigun arm</label>
             <draw>false</draw>
             <canBeToggled>true</canBeToggled>
             <canFireIndependently>false</canFireIndependently>
@@ -58,10 +58,10 @@
   </HediffDef>
 
   <ThingDef ParentName="FF_BodyPartBionicBase">
-    <defName>FF_MinigunWrist</defName>
-    <label>minigun wrist</label>
-    <description>placeholder</description>
-    <descriptionHyperlinks><RecipeDef>FF_InstallMinigunWrist</RecipeDef></descriptionHyperlinks>
+    <defName>FF_MinigunArm</defName>
+    <label>minigun arm</label>
+    <description>An advanced artifical arm, with a built-in retractable minigun. While providing combat advantage, it matches the performance of a biological arm.</description>
+    <descriptionHyperlinks><RecipeDef>FF_InstallMinigunArm</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
@@ -79,19 +79,19 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>FF_InstallMinigunWrist</defName>
-    <label>install minigun wrist</label>
-    <description>Install a minigun wrist.</description>
+    <defName>FF_InstallMinigunArm</defName>
+    <label>install minigun arm</label>
+    <description>Install a minigun arm.</description>
     <descriptionHyperlinks>
-      <ThingDef>FF_MinigunWrist</ThingDef>
-      <HediffDef>FF_MinigunWrist</HediffDef>
+      <ThingDef>FF_MinigunArm</ThingDef>
+      <HediffDef>FF_MinigunArm</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing minigun wrist.</jobString>
+    <jobString>Installing minigun arm.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>FF_MinigunWrist</li>
+            <li>FF_MinigunArm</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -99,13 +99,13 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>FF_MinigunWrist</li>
+        <li>FF_MinigunArm</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>FF_MinigunWrist</addsHediff>
+    <addsHediff>FF_MinigunArm</addsHediff>
   </RecipeDef>
 
 </Defs>

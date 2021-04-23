@@ -84,7 +84,7 @@
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_FlamerWrist</defName>
     <label>flamer wrist</label>
-    <description>placeholder</description>
+    <description>An advanced artifical arm, with a built-in flamethrower. While providing combat advantage, it is better than a biological arm in almost every way.</description>
     <descriptionHyperlinks><RecipeDef>FF_InstallFlamerWrist</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -126,7 +126,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Arm</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FF_FlamerWrist</addsHediff>
   </RecipeDef>

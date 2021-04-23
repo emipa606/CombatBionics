@@ -75,7 +75,7 @@
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_SwarmWrist</defName>
     <label>swarm wrist</label>
-    <description>placeholder</description>
+    <description>An advanced artifical hand, with a built-in single use missile swarm. While providing combat advantage, it is better than a biological hand in almost every way.</description>
     <descriptionHyperlinks><RecipeDef>FF_InstallSwarmWrist</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -116,7 +116,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Arm</li>
+      <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FF_SwarmWrist</addsHediff>
   </RecipeDef>
