@@ -14,11 +14,6 @@ Includes conditional patches for various Vanilla Weapons Expanded modules, doubl
 Utilizes Multi Verb Combat Framework (included in VE Framework) and Reloading by legodude17.
     </description>
     <modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
-		</li>
         <li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
