@@ -21,7 +21,7 @@
     <spawnThingOnRemoved>FF_TeslaWrist</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.25</partEfficiency>
+      <partEfficiency>1.15</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <comps>
