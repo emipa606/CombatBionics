@@ -59,7 +59,7 @@
             <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
             <warmupTime>0.75</warmupTime>
             <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-            <range>12.9</range>
+            <range>7.9</range>
             <soundCast>InfernoCannon_Fire</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <onlyManualCast>true</onlyManualCast>

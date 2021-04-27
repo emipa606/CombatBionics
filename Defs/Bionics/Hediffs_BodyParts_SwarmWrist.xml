@@ -24,7 +24,7 @@
         </AmmoFilter>
         <ItemsPerShot>5</ItemsPerShot>
         <ReloadTimePerShot>0.25</ReloadTimePerShot>
-        <ReloadSound>ReloadRocket</ReloadSound>
+        <ReloadSound>Interact_Grenade</ReloadSound>
       </li>
       <li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
         <tools>
