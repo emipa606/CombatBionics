@@ -93,11 +93,13 @@
       <Chemfuel>40</Chemfuel>
     </costList>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
-    <researchPrerequisites>
-      <li>Bionics</li>
-      <li MayRequire="vanillaexpanded.vwe">VWE_Flamethrower</li>
-    </researchPrerequisites>
-    <statBases>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>Bionics</li>
+        <li MayRequire="vanillaexpanded.vwe">VWE_Flamethrower</li>
+      </researchPrerequisites>
+    </recipeMaker>
+	<statBases>
       <Mass>5</Mass>
     </statBases>
   </ThingDef>

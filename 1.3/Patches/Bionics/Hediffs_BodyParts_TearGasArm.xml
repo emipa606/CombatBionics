@@ -93,10 +93,12 @@
       <Neutroamine>25</Neutroamine>
     </costList>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
-    <researchPrerequisites>
-      <li>Bionics</li>
-      <li>VWE_NonLethal</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>Bionics</li>
+        <li>VWE_NonLethal</li>
+      </researchPrerequisites>
+	</recipeMaker>
     <statBases>
       <Mass>5</Mass>
     </statBases>

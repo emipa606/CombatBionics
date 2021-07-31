@@ -78,10 +78,12 @@
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
-    <researchPrerequisites>
-      <li>Bionics</li>
-      <li>VWE_UltratechLaserWeapons</li>
-    </researchPrerequisites>
+	<recipeMaker>
+      <researchPrerequisites>
+        <li>Bionics</li>
+        <li>VWE_UltratechLaserWeapons</li>
+      </researchPrerequisites>
+    </recipeMaker>
     <statBases>
       <Mass>5</Mass>
     </statBases>

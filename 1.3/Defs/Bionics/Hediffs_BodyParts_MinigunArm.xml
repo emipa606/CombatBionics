@@ -73,10 +73,12 @@
     <statBases>
       <Mass>10</Mass>
     </statBases>
-    <researchPrerequisites>
-      <li>Bionics</li>
-      <li>MultibarrelWeapons</li>
-    </researchPrerequisites>
+	<recipeMaker>
+      <researchPrerequisites>
+        <li>Bionics</li>
+        <li>MultibarrelWeapons</li>
+      </researchPrerequisites>
+	</recipeMaker>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">

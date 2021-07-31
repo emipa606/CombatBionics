@@ -59,10 +59,12 @@
     <statBases>
       <Mass>3</Mass>
     </statBases>
-    <researchPrerequisites>
-      <li>Bionics</li>
-      <li>JumpPack</li>
-    </researchPrerequisites>
+	<recipeMaker>
+      <researchPrerequisites>
+        <li>Bionics</li>
+        <li>JumpPack</li>
+	  </researchPrerequisites>
+	</recipeMaker>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
