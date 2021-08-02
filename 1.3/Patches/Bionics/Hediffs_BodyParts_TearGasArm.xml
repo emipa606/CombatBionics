@@ -52,6 +52,7 @@
         </tools>
         <verbs>
           <li>
+		    <label>tear gas arm</label>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>VWENL_Projectile_TearGasGrenade</defaultProjectile>

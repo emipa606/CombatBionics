@@ -40,6 +40,7 @@
         </tools>
         <verbs>
           <li>
+		    <label>tesla wrist</label>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>VWEL_Bullet_TeslaGun</defaultProjectile>

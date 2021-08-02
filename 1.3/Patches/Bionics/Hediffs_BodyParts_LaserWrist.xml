@@ -40,6 +40,7 @@
         </tools>
         <verbs>
           <li>
+            <label>laser wrist</label>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>VWEL_Bullet_LaserRifle</defaultProjectile>
