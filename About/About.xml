@@ -13,7 +13,7 @@ This mod adds several bionic body parts with combat focused abilities. Swarm roc
 Includes conditional patches for various Vanilla Weapons Expanded modules, doubling the content for the full set.
 
 Utilizes Multi Verb Combat Framework (included in VE Framework) and Reloading by legodude17.
-Requires both Vanilla Expanded Framework and Lego Bricks.
+Requires Vanilla Expanded Framework.
     </description>
     <modDependencies>
         <li>
@@ -21,18 +21,11 @@ Requires both Vanilla Expanded Framework and Lego Bricks.
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
 		</li>
-        <li>
-            <packageId>legodude17.legobricks</packageId>
-            <displayName>LegoBricks</displayName>
-            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2548933983</steamWorkshopUrl>
-            <downloadUrl>https://github.com/legodude17/legobricks</downloadUrl>
-        </li>
 	</modDependencies>
 	<loadAfter>
 	<li>brrainz.harmony</li>
 	<li>Ludeon.RimWorld</li>
 	<li>Ludeon.RimWorld.Royalty</li>
 	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-    <li>legodude17.legobricks</li>
 	</loadAfter>
 </ModMetaData>
