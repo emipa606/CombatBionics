@@ -50,7 +50,6 @@
             <range>23.9</range>
             <soundCast>VWE_LaserShot_Light</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
-            <onlyManualCast>true</onlyManualCast>
             <targetParams>
               <canTargetLocations>true</canTargetLocations>
             </targetParams>

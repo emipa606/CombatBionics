@@ -39,7 +39,6 @@
             <range>30.9</range>
             <soundCast>Shot_Minigun</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
-            <onlyManualCast>true</onlyManualCast>
             <targetParams>
               <canTargetLocations>true</canTargetLocations>
             </targetParams>
