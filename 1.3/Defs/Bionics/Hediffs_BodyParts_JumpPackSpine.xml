@@ -24,7 +24,7 @@
             <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
             <warmupTime>1</warmupTime>
             <warmupEffecter>JumpWarmupEffect</warmupEffecter>
-            <requireLineOfSight>true</requireLineOfSight>
+            <requireLineOfSight>false</requireLineOfSight>
             <targetParams>
               <canTargetLocations>true</canTargetLocations>
               <canTargetPawns>false</canTargetPawns>
