@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>FF_JumpPackSpine</defName>
     <label>jump pack spine</label>
     <labelNoun>a jump pack spine</labelNoun>
     <description>An installed jump pack spine.</description>
-    <descriptionHyperlinks><ThingDef>FF_JumpPackSpine</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>FF_JumpPackSpine</ThingDef>
+    </descriptionHyperlinks>
     <spawnThingOnRemoved>FF_JumpPackSpine</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
@@ -30,25 +31,28 @@
               <canTargetPawns>false</canTargetPawns>
               <canTargetBuildings>false</canTargetBuildings>
             </targetParams>
-			<range>15.9</range>
+            <range>15.9</range>
           </li>
         </verbs>
       </li>
     </comps>
   </HediffDef>
-
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_JumpPackSpine</defName>
     <label>jump pack spine</label>
     <description>An advanced artifical spine, with a built-in jump pack system. While providing combat utility, it matches the performance of a biological spine.</description>
-    <descriptionHyperlinks><RecipeDef>FF_InstallJumpPackSpine</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <RecipeDef>FF_InstallJumpPackSpine</RecipeDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
       <Steel>40</Steel>
       <Chemfuel>100</Chemfuel>
     </costList>
-    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
     <statBases>
       <Mass>3</Mass>
     </statBases>
@@ -57,7 +61,6 @@
       <li>JumpPack</li>
     </researchPrerequisites>
   </ThingDef>
-
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>FF_InstallJumpPackSpine</defName>
     <label>install jump pack spine</label>
@@ -87,5 +90,4 @@
     </appliedOnFixedBodyParts>
     <addsHediff>FF_JumpPackSpine</addsHediff>
   </RecipeDef>
-
 </Defs>

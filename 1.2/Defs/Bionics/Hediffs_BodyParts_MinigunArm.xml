@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>FF_MinigunArm</defName>
     <label>minigun arm</label>
     <labelNoun>a minigun arm</labelNoun>
     <description>An installed minigun arm.</description>
-    <descriptionHyperlinks><ThingDef>FF_MinigunArm</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>FF_MinigunArm</ThingDef>
+    </descriptionHyperlinks>
     <spawnThingOnRemoved>FF_MinigunArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
@@ -56,19 +57,22 @@
       </li>
     </comps>
   </HediffDef>
-
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_MinigunArm</defName>
     <label>minigun arm</label>
     <description>An advanced artifical arm, with a built-in retractable minigun. While providing combat advantage, it matches the performance of a biological arm.</description>
-    <descriptionHyperlinks><RecipeDef>FF_InstallMinigunArm</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <RecipeDef>FF_InstallMinigunArm</RecipeDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
       <Steel>100</Steel>
       <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
-    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
     <statBases>
       <Mass>10</Mass>
     </statBases>
@@ -77,7 +81,6 @@
       <li>MultibarrelWeapons</li>
     </researchPrerequisites>
   </ThingDef>
-
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>FF_InstallMinigunArm</defName>
     <label>install minigun arm</label>
@@ -107,5 +110,4 @@
     </appliedOnFixedBodyParts>
     <addsHediff>FF_MinigunArm</addsHediff>
   </RecipeDef>
-
 </Defs>

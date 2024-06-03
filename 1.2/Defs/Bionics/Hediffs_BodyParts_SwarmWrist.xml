@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>FF_SwarmWrist</defName>
     <label>swarm wrist</label>
     <labelNoun>a swarm wrist</labelNoun>
     <description>An installed swarm wrist.</description>
-    <descriptionHyperlinks><ThingDef>FF_SwarmWrist</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <ThingDef>FF_SwarmWrist</ThingDef>
+    </descriptionHyperlinks>
     <spawnThingOnRemoved>FF_SwarmWrist</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
@@ -19,7 +20,7 @@
         <MaxShots>8</MaxShots>
         <AmmoFilter>
           <thingDefs>
-             <li>Chemfuel</li>
+            <li>Chemfuel</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>5</ItemsPerShot>
@@ -71,18 +72,21 @@
       </li>
     </comps>
   </HediffDef>
-
   <ThingDef ParentName="FF_BodyPartBionicBase">
     <defName>FF_SwarmWrist</defName>
     <label>swarm wrist</label>
     <description>An advanced artifical hand, with a built-in single use missile swarm. While providing combat advantage, it is better than a biological hand in almost every way.</description>
-    <descriptionHyperlinks><RecipeDef>FF_InstallSwarmWrist</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+      <RecipeDef>FF_InstallSwarmWrist</RecipeDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
       <Chemfuel>60</Chemfuel>
     </costList>
-    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
     <statBases>
       <Mass>5</Mass>
     </statBases>
@@ -90,7 +94,6 @@
       <li>Bionics</li>
     </researchPrerequisites>
   </ThingDef>
-
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>FF_InstallSwarmWrist</defName>
     <label>install swarm wrist</label>
@@ -120,7 +123,6 @@
     </appliedOnFixedBodyParts>
     <addsHediff>FF_SwarmWrist</addsHediff>
   </RecipeDef>
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_FF_SwarmRocket</defName>
     <label>swarm rocket</label>
@@ -137,7 +139,6 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
-
   <DamageDef>
     <defName>FF_SwarmMissile</defName>
     <label>swarm missile</label>
@@ -164,5 +165,4 @@
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
-
 </Defs>
