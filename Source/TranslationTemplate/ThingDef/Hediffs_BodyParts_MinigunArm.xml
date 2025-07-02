@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: minigun arm -->
+  <FF_MinigunArm.label>minigun arm</FF_MinigunArm.label>
+  <!-- EN: A prosthetic arm, with a built-in retractable minigun. While providing combat advantage, it matches the performance of a prosthetic arm. -->
+  <FF_MinigunArm.description>A prosthetic arm, with a built-in retractable minigun. While providing combat advantage, it matches the performance of a prosthetic arm.</FF_MinigunArm.description>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: swarm wrist (legacy) -->
+  <FF_SwarmWrist.label>swarm wrist (legacy)</FF_SwarmWrist.label>
+  <!-- EN: An installed swarm wrist. -->
+  <FF_SwarmWrist.description>An installed swarm wrist.</FF_SwarmWrist.description>
+  <!-- EN: fist -->
+  <FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.tools.fist.label>fist</FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.tools.fist.label>
+  <!-- EN: whistling birds -->
+  <FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.verbProps.0.label>whistling birds</FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.verbProps.0.label>
+  <!-- EN: whistling birds -->
+  <FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.verbs.whistling_birds.label>whistling birds</FF_SwarmWrist.comps.HediffComp_ExtendedVerbGiver.verbs.whistling_birds.label>
+  <!-- EN: a swarm wrist -->
+  <FF_SwarmWrist.labelNoun>a swarm wrist</FF_SwarmWrist.labelNoun>
+  <!-- EN: whistling birds -->
+  <FF_SwarmWristImplant.label>whistling birds</FF_SwarmWristImplant.label>
+  <!-- EN: An installed whistling birds. -->
+  <FF_SwarmWristImplant.description>An installed whistling birds.</FF_SwarmWristImplant.description>
+  <!-- EN: whistling birds -->
+  <FF_SwarmWristImplant.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>whistling birds</FF_SwarmWristImplant.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>
+  <!-- EN: FF_SwarmWristImplant -->
+  <FF_SwarmWristImplant.comps.HediffComp_ExtendedVerbGiver.verbs.FF_SwarmWristImplant.label>FF_SwarmWristImplant</FF_SwarmWristImplant.comps.HediffComp_ExtendedVerbGiver.verbs.FF_SwarmWristImplant.label>
+  <!-- EN: a whistling birds -->
+  <FF_SwarmWristImplant.labelNoun>a whistling birds</FF_SwarmWristImplant.labelNoun>
+</LanguageData>

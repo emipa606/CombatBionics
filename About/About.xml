@@ -9,6 +9,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -62,7 +63,6 @@ Q: How do I reload the swarm wrist?
 A: Pawns automatically reload their bionics when you undraft them, as a job. Or you can force them to reload by hovering over the gizmo to see what's needed to reload, then right clicking the appropriate ammunition to give the reload order.
 
 [b]Freefolk Modding Team[/b]
-[i][url=https://discord.gg/wsycYmryeX]Click here to join the Freefolk Discord server[/url][/i]
 
 Credits: Freefolk Modding Team. Special thanks to legodude17.
 Rimworld is owned by Tynan Sylvester.
@@ -76,6 +76,8 @@ Rimworld is owned by Tynan Sylvester.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3260597442][img]https://img.shields.io/github/v/release/emipa606/CombatBionics?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  combat enhancements</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install jump pack spine -->
+  <FF_InstallJumpPackSpine.label>install jump pack spine</FF_InstallJumpPackSpine.label>
+  <!-- EN: Install a jump pack spine. -->
+  <FF_InstallJumpPackSpine.description>Install a jump pack spine.</FF_InstallJumpPackSpine.description>
+  <!-- EN: Installing jump pack spine. -->
+  <FF_InstallJumpPackSpine.jobString>Installing jump pack spine.</FF_InstallJumpPackSpine.jobString>
+</LanguageData>

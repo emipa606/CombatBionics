@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: minigun arm -->
+  <FF_MinigunArm.label>minigun arm</FF_MinigunArm.label>
+  <!-- EN: An installed minigun arm. -->
+  <FF_MinigunArm.description>An installed minigun arm.</FF_MinigunArm.description>
+  <!-- EN: minigun arm -->
+  <FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.tools.minigun_arm.label>minigun arm</FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.tools.minigun_arm.label>
+  <!-- EN: minigun arm -->
+  <FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>minigun arm</FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>
+  <!-- EN: FF_MinigunArm -->
+  <FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.verbs.FF_MinigunArm.label>FF_MinigunArm</FF_MinigunArm.comps.HediffComp_ExtendedVerbGiver.verbs.FF_MinigunArm.label>
+  <!-- EN: a minigun arm -->
+  <FF_MinigunArm.labelNoun>a minigun arm</FF_MinigunArm.labelNoun>
+</LanguageData>

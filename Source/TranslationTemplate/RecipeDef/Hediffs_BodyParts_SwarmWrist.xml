@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install swarm wrist (legacy) -->
+  <FF_InstallSwarmWrist.label>install swarm wrist (legacy)</FF_InstallSwarmWrist.label>
+  <!-- EN: Install a swarm wrist. -->
+  <FF_InstallSwarmWrist.description>Install a swarm wrist.</FF_InstallSwarmWrist.description>
+  <!-- EN: Installing swarm wrist. -->
+  <FF_InstallSwarmWrist.jobString>Installing swarm wrist.</FF_InstallSwarmWrist.jobString>
+  <!-- EN: install whistling birds -->
+  <FF_InstallSwarmWristImplant.label>install whistling birds</FF_InstallSwarmWristImplant.label>
+  <!-- EN: Install whistling birds. -->
+  <FF_InstallSwarmWristImplant.description>Install whistling birds.</FF_InstallSwarmWristImplant.description>
+  <!-- EN: Installing whistling birds. -->
+  <FF_InstallSwarmWristImplant.jobString>Installing whistling birds.</FF_InstallSwarmWristImplant.jobString>
+  <!-- EN: remove whistling birds -->
+  <FF_RemoveSwarmWristImplant.label>remove whistling birds</FF_RemoveSwarmWristImplant.label>
+  <!-- EN: Remove whistling birds. -->
+  <FF_RemoveSwarmWristImplant.description>Remove whistling birds.</FF_RemoveSwarmWristImplant.description>
+  <!-- EN: Removing whistling birds. -->
+  <FF_RemoveSwarmWristImplant.jobString>Removing whistling birds.</FF_RemoveSwarmWristImplant.jobString>
+</LanguageData>

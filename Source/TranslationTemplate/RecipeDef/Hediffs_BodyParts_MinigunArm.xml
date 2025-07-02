@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install minigun arm -->
+  <FF_InstallMinigunArm.label>install minigun arm</FF_InstallMinigunArm.label>
+  <!-- EN: Install a minigun arm. -->
+  <FF_InstallMinigunArm.description>Install a minigun arm.</FF_InstallMinigunArm.description>
+  <!-- EN: Installing minigun arm. -->
+  <FF_InstallMinigunArm.jobString>Installing minigun arm.</FF_InstallMinigunArm.jobString>
+</LanguageData>

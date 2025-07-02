@@ -31,7 +31,8 @@ public class Projectile_ExplosiveStun : Projectile_Explosive
         base.Explode();
         GenExplosion.DoExplosion(position, map, explosionRadius, stun, thing, damageAmount, armorPenetration,
             soundExplode, thingDef, thingDef2, thing2, postExplosionSpawnThingDef, postExplosionSpawnChance,
-            postExplosionSpawnThingCount, null, applyDamageToExplosionCellsNeighbors, preExplosionSpawnThingDef,
+            postExplosionSpawnThingCount, null, null, 0, applyDamageToExplosionCellsNeighbors,
+            preExplosionSpawnThingDef,
             preExplosionSpawnChance, preExplosionSpawnThingCount, explosionChanceToStartFire, explosionDamageFalloff,
             num);
     }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: swarm rocket -->
+  <Bullet_FF_SwarmRocket.label>swarm rocket</Bullet_FF_SwarmRocket.label>
+  <!-- EN: swarm wrist (legacy) -->
+  <FF_SwarmWrist.label>swarm wrist (legacy)</FF_SwarmWrist.label>
+  <!-- EN: An advanced artifical hand, with a built-in single use missile swarm. While providing combat advantage, it is better than a biological hand in almost every way. -->
+  <FF_SwarmWrist.description>An advanced artifical hand, with a built-in single use missile swarm. While providing combat advantage, it is better than a biological hand in almost every way.</FF_SwarmWrist.description>
+  <!-- EN: whistling birds -->
+  <FF_SwarmWristImplant.label>whistling birds</FF_SwarmWristImplant.label>
+  <!-- EN: An advanced artifical arm implant, with a built-in single use concussion missile barrage. Whistling birds is a popular choice of implant among glitterworld warrior clans, as well as interplanetary bounty hunters; mostly because of its surprise factor and the wielder's ability to eliminate the threats quickly afterwards. -->
+  <FF_SwarmWristImplant.description>An advanced artifical arm implant, with a built-in single use concussion missile barrage. Whistling birds is a popular choice of implant among glitterworld warrior clans, as well as interplanetary bounty hunters; mostly because of its surprise factor and the wielder's ability to eliminate the threats quickly afterwards.</FF_SwarmWristImplant.description>
+</LanguageData>

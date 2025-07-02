@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: jump pack spine -->
+  <FF_JumpPackSpine.label>jump pack spine</FF_JumpPackSpine.label>
+  <!-- EN: An installed jump pack spine. -->
+  <FF_JumpPackSpine.description>An installed jump pack spine.</FF_JumpPackSpine.description>
+  <!-- EN: jump pack spine -->
+  <FF_JumpPackSpine.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>jump pack spine</FF_JumpPackSpine.comps.HediffComp_ExtendedVerbGiver.verbProps.0.visualLabel>
+  <!-- EN: jump -->
+  <FF_JumpPackSpine.comps.HediffComp_ExtendedVerbGiver.verbs.jump.label>jump</FF_JumpPackSpine.comps.HediffComp_ExtendedVerbGiver.verbs.jump.label>
+  <!-- EN: a jump pack spine -->
+  <FF_JumpPackSpine.labelNoun>a jump pack spine</FF_JumpPackSpine.labelNoun>
+</LanguageData>

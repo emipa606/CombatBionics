@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: enable features -->
+  <FF_CombatBionics_Enable.label>enable features</FF_CombatBionics_Enable.label>
+  <!-- EN: Enables MVCF features. -->
+  <FF_CombatBionics_Enable.description>Enables MVCF features.</FF_CombatBionics_Enable.description>
+</LanguageData>

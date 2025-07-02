@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: jump pack spine -->
+  <FF_JumpPackSpine.label>jump pack spine</FF_JumpPackSpine.label>
+  <!-- EN: An advanced artifical spine, with a built-in jump pack system. While providing combat utility, it matches the performance of a biological spine. -->
+  <FF_JumpPackSpine.description>An advanced artifical spine, with a built-in jump pack system. While providing combat utility, it matches the performance of a biological spine.</FF_JumpPackSpine.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: swarm missile -->
+  <FF_SwarmMissile.label>swarm missile</FF_SwarmMissile.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <FF_SwarmMissile.deathMessage>{0} has died in an explosion.</FF_SwarmMissile.deathMessage>
+</LanguageData>
