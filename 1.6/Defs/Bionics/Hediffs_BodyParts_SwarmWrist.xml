@@ -145,7 +145,7 @@
       <speed>80</speed>
     </projectile>
     <comps>
-      <li MayRequire="VanillaExpanded.VWEHW" Class="HeavyWeapons.CompProperties_GuidedProjectile">
+      <li MayRequire="VanillaExpanded.VWEHW" Class="VEF.Weapons.CompProperties_GuidedProjectile">
         <hitChance>1</hitChance>
         <selectDifferentTargets>true</selectDifferentTargets>
       </li>

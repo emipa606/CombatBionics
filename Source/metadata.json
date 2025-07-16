@@ -3,12 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-07-02T23:00:24.825645+02:00",
+  "LastXmlCleaning": "2025-07-16T15:05:55.800738+02:00",
   "SocialImageSet": true,
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 4511.0,
-  "LinesOfXML": 25815.0,
-  "SearchTags": " combat enhancements"
+  "LinesOfCode": 4511,
+  "LinesOfXML": 25814,
+  "SearchTags": " combat enhancements",
+  "CodeBaseSize": 71
 }
