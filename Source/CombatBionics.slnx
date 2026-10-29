@@ -3,4 +3,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CombatBionics/CombatBionics.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Bionics/">
+    <File Path="../1.7/Defs/Bionics/Hediffs_BodyParts_Base.xml" />
+    <File Path="../1.7/Defs/Bionics/Hediffs_BodyParts_MinigunArm.xml" />
+    <File Path="../1.7/Defs/Bionics/Hediffs_BodyParts_SwarmWrist.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/LTS_Support.xml" />
+    <File Path="../1.7/Patches/Yayo_Support.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>
